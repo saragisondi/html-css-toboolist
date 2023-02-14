@@ -6,41 +6,51 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
+  background-color: #f6f8f9;
+}
+
+.container{
+  width: 100%;
 }
 
 header{
-  padding: 20px;
+  padding: 10px;
+  vertical-align: middle;
+  background-color: white;
+  border-bottom: 2px solid lightgrey;
 }
+
 
 header h1{
   display: inline-block;
   font-size: xxx-large;
 }
 
-header img{
-  vertical-align: middle;
+.container-main{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .main-text{
-  width: 50%;
-  text-align: center;
+  text-align: left;
+  background-color:white;
+  width: 80%;
+
 }
 
 nav{
-  width: 50px;
   list-style-type: none;
-}
-
-.menu{
-  text-decoration-line: none;
+  background-color: white;
+  border-bottom: 2px solid #c3c5c5;
+  padding: 20px;
+  padding-left: 40px;
+  margin-top: 50px;
+  text-align: left;
   
 }
 
 .list{
-  width: 150px;
-  padding:50px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 #task{
@@ -48,6 +58,7 @@ nav{
   background-color: #47ADF1;
   border: 2px solid #47ADF1;
   border-radius: 5px;
+  padding:5px;
 }
 
 #section{
@@ -55,5 +66,70 @@ nav{
   background-color:white;
   border: 2px solid #c3c5c5;
   border-radius: 5px;
-
+  padding: 5px;
 }
+
+main{
+  padding: 30px;
+}
+
+section{
+  padding: 10px;
+}
+
+section p{
+  margin: 15px;
+}
+
+.icon {
+  font-size: 12px;
+}
+
+.title{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.do{
+  color:lightseagreen;
+}
+
+.to-do{
+color: lightcoral;
+}
+
+main span{
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+#editorial{
+  background-color:#47ADF1;
+  color: white;
+}
+
+#goals{
+  background-color:#9c72e4;
+  color: white;
+}
+
+#recruiting{
+  background-color:#64c0a9;
+  color: white;
+  }
+
+#mobile{
+  background-color:#f29e33;
+  color: white;
+  }
+
+  #website{
+  background-color:#d863a1;
+  color: white; 
+  }
+
+  #sales{
+  background-color:#b0c926;
+  color: white;  
+  }
