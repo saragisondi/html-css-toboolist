@@ -8,14 +8,45 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+  padding: 20px;
+}
+
 header h1{
   display: inline-block;
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: xxx-large;
 }
 
 header img{
   vertical-align: middle;
 }
 
+.main-text{
+  width: 50%;
+  text-align: center;
+}
 
+nav{
+  padding: 50px;
+  list-style-type: none;
+}
+
+.menu{
+  text-decoration-line: none;
+  
+}
+
+.list{
+  width: 150px;
+  padding:20px;
+}
+
+#task{
+  color: white;
+  background-color: #47ADF1;
+  
+}
+
+#section{
+  color:#c3c5c5;
+}
