@@ -4,55 +4,90 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toboolist</title>
   <link rel="stylesheet" href="css/style.css">
-
+  <title>Toboolist 94</title>
 </head>
 <body>
 
-  <div class="container">
-    <!--Logo-->
-    <header>
-        <img src="img/Logo.png" alt="Logo">
-        <h1>Toboolist</h1>
-    </header>
-    
-    <div class="container-main">
+  <header>
+    <img src="img/Logo.png" alt="Logo">
+    <span class="logo-text">Toboolist</span>
+  </header>
 
-    <div class="main-text">
-      <!--Menù-->
-    <nav class="list">
-        <span id="task">Add Task</span>
-        <span id="section">Add Section</span>      
-    </nav>
+  <main>
 
-      <!--testo-->
-    <main>
-      <section>
-        <span class="icon">&#9660;</span><span class="title">New Task</span>
-          <p><span class="do">&#10004; </span>Quarterly Newsletter <span id="editorial"> editorial</span></p> 
-      </section>
+    <div class="container">
 
-      <section>
-        <span class="icon">&#9660;</span><span class="title">Today</span>
-          <p><span class="do">&#10004;</span> Recruiting blog post <span id="editorial"> editorial</span></p>
-          <p><span class="do">&#10004;</span> Mobile app lunch <span id="goals"> Q1 Goals</span></p>
-          <p><span class="to-do">&#10006; </span>Interview John H. <span id="recruiting"> Recruiting</span></p>
-          <p><span class="do">&#10004;</span> Summit update to mobile storefrons <span id="mobile"> Mobile</span></p>
-          
-      </section>  
+      <div class="top">
+          <button class="btn btn-filled">Add Task</button>
+          <button class="btn btn-empty">Add Section</button>
+      </div>
 
-      <section>
-        <span class="icon">&#9660;</span><span class="title">Upcoming</span>
-          <p><span class="to-do">&#10006;</span> Schedule meetings with Alex</p>
-          <p><span class="do">&#10004;</span> Homepage refresh <span id="website">Website</span> </p>
-          <p><span class="do">&#10004;</span> Onboard new Sales team members <span id="sales">Sales</span> </p>
-          <p><span class="do">&#10004;</span> Review editorial calendar <span id="editorial"> editorial</span></p>
-      </section>
-    </main>
-  </div>
-  </div>
+      <div class="tasks">
+
+        <ul>
+          <li>
+            <h3>New Task</h3>
+            <ul>
+              <li>
+                <span class="circle checked"></span>
+                <span>Quartely Newsletter</span>
+                <span class="tag editorial">Editorial</span>
+              </li>
+              <li>
+                <span class="circle unchecked"></span>
+                  <span>qualsiasi cosa</span>
+                <span class="tag recruting">Recruting</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3>Today</h3>
+            <ul>
+              <li>
+                <span class="circle checked"></span>
+                <span>Quartely Newsletter</span>
+                <span class="tag editorial">Editorial</span>
+              </li>
+              <li>
+                <span class="circle unchecked"></span>
+                  <span>qualsiasi cosa</span>
+                <span class="tag mobile">Recruting</span>
+              </li>
+              <li>
+                <span class="circle unchecked"></span>
+                  <span>qualsiasi cosa</span>
+                <span class="tag sales">Recruting</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3>Upcoming</h3>
+            <ul>
+              <li>
+                <span class="circle checked"></span>
+                <span>Quartely Newsletter</span>
+                <span class="tag editorial">Editorial</span>
+              </li>
+              <li>
+                <span class="circle unchecked"></span>
+                  <span>qualsiasi cosa</span>
+                <span class="tag q1">Recruting</span>
+              </li>
+              <li>
+                <span class="circle unchecked"></span>
+                  <span>qualsiasi cosa</span>
+                <span class="tag recruting">Recruting</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </main>
   
-  </div>
 </body>
 </html>
